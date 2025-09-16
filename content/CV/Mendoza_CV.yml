@@ -1,0 +1,171 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/roaldarbol/academicv/main/cv.typ.schema.json
+
+# Document settings
+settings:
+  font-heading: "Libertinus Serif"
+  font-body: "Libertinus Serif"
+  fontsize: 10pt
+  spacing-section: 12pt
+  spacing-entry: 0.1em
+  spacing-element: 3pt
+  spacing-line: 5pt
+  color-hyperlink: rgb(50, 120, 180)
+  page:
+    paper: "a4"
+    numbering: "1 / 1"
+    number-align: "center"
+    margin: 3cm
+
+# Personal information
+personal:
+  name: Austin J. Mendoza, Ph.D.
+  titles:
+    - Postdoctoral Research Associate
+  location:
+    institution: Lehigh University
+    city: Bethlehem, PA
+    country: USA
+  contact:
+    email: austinjmendoza@proton.me
+    # phone:
+    website: https://austinmendoza.me
+  profiles:
+    # - network: GitHub
+    #   # username: johndoe
+    #   url: https://github.com/Arstan67
+    - network: LinkedIn
+      username: austinjmendoza
+      url: https://linkedin.com/in/austinjmendoza
+      
+# Section definitions and content
+sections:
+  - key: personal
+    layout: header
+    show: true
+    include: ["titles", "location", "contact"]
+
+  - key: education
+    layout: timeline
+    primary-element: ["institution"]
+    secondary-element: ["title"]
+    tertiary-element: ["thesis", "advisor"]
+    title: Education
+    show: true
+    entries:
+      - institution: Lehigh University
+        location: Bethlehem, PA
+        title: Ph.D. in Biology, Neuroscience focus
+        advisor: Advised by Julie S. Haas, Ph.D.
+        thesis: Electrical synapses and sensory attention at the thalamic reticular nucleus.
+        start-date: 2019
+        end-date: 2025
+      - institution: University of California, Fresno
+        location: Fresno, CA
+        title: M.S. in Biology, with distinction
+        advisor: Advised by David D. Lent, Ph.D.
+        thesis: Modeling visual preception, learning, and memory of wood ants navigating in naturalistic environments.
+        start-date: 2017
+        end-date: 2019
+      - institution: University of California, Fresno
+        location: Fresno, CA
+        title: B.S. in Biology
+        start-date: 2012
+        end-date: 2017
+
+  # - key: experience
+  #   layout: timeline
+  #   primary-element: ["institution"]
+  #   secondary-element: ["title"]
+  #   tertiary-element: ["description"]
+  #   title: Professional Experience
+  #   show: true
+  #   entries:
+  #     - institution: TechCorp AI
+  #       title: Senior Data Scientist
+  #       start-date: 01/2020
+  #       end-date: Present
+  #       description: |
+  #         Lead a team of five data scientists developing computer vision algorithms for autonomous systems. Developed and deployed machine learning models that improved object detection accuracy by 35% while reducing false positives by 40%. Collaborated with cross-functional teams to integrate AI solutions into production systems.
+  #     - institution: DataViz Solutions
+  #       title: Machine Learning Engineer
+  #       start-date: 06/2019
+  #       end-date: 12/2019
+  #       description: |
+  #         Designed and implemented natural language processing systems for customer sentiment analysis. Created a scalable pipeline for processing over 1 million text documents daily. Reduced model training time by 60% through optimization techniques.
+  #     - institution: Stanford AI Lab
+  #       title: Research Assistant
+  #       start-date: 09/2015
+  #       end-date: 05/2019
+  #       description: |
+  #         Conducted research on reinforcement learning algorithms for robotic applications. Published three papers in top-tier ML conferences (NeurIPS, ICML). Developed open-source libraries for deep reinforcement learning research.
+
+  - key: publications
+    layout: numbered-list
+    title: Publications
+    show: true
+    entries:
+      - "*Mendoza. AJ* & JS Haas. (2025). Electrical coupling within thalamocortical networks cumulatively reduces cortical correlation to sensory inputs. In Submission, J. neurosci. BioRxiv. Doi:10.1101/2025.08.21.671565"
+      
+      - "Rolón-Martínez, S, *Mendoza, AJ*, Angeloni, CF, Diaz-Nieves, IA, Chen, R, Haas, JS, 		& MN Geffen. (2025). Inhibitory neuron types of the TRN differentially modulate auditory 	thalamic sound responses. In Review, PLoS Biology. BioRxiv. Doi:10.1101/2024.06.29.601250"
+
+      - "*Mendoza. AJ* & JS Haas. (2022). Intrinsic sources and functional impacts of asymmetry at 	electrical synapses. eNeuro. Doi:10.1523/ENEURO.0469-21.2022"
+
+
+  # - key: teaching
+  #   layout: timeline
+  #   primary-element: ["title", "institution"]
+  #   secondary-element: ["professors"]
+  #   tertiary-element: ["description"]
+  #   title: Teaching Experience
+  #   show: true
+  #   entries:
+  #     - institution: Stanford University
+  #       title: Advanced Machine Learning
+  #       professors: ["Prof. Sarah Johnson"]
+  #       start-date: 2018
+  #       end-date: 2019
+  #       description: |
+  #         Teaching assistant for graduate-level course. Led weekly discussion sections, created homework assignments, and held office hours for a class of 120 students.
+  #     - institution: Stanford University
+  #       title: Introduction to Artificial Intelligence
+  #       professors: ["Prof. Michael Brown", "Prof. Lisa Chen"]
+  #       start-date: 2017
+  #       end-date: 2018
+  #       description: |
+  #         Teaching assistant for undergraduate course. Developed programming assignments and grading rubrics. Received Teaching Excellence Award based on student evaluations.
+  #     - institution: MIT OpenCourseWare
+  #       title: Python for Data Science
+  #       start-date: 2016
+  #       description: |
+  #         Created and recorded a series of online tutorials covering Python programming for data analysis and machine learning applications. Course has been accessed by over 50,000 students worldwide.
+
+  - key: awards
+    layout: timeline
+    primary-element: ["title", "institution"]
+    tertiary-element: ["description"]
+    title: Honors & Awards
+    show: true
+    entries:
+      - institution: Lehigh University, Department of Biological Sciences
+        title: Thorne Fellowship
+        start-date: 2022
+        description: |
+          Semester long department research fellowship recognizing research progress of select Ph.D. Candidates.
+      - institution: Lehigh University, College of Arts and Sciences
+        title: Summer Fellowship
+        start-date: 2022
+        description: |
+          Summer research fellowship awarded to a select few graduate students in the College, nominated by department.
+  #
+  - key: conferences
+    layout: numbered-list
+    title: Conference Presentations
+    show: true
+    entries:
+      - "Organization for Computational Neurosciences (2025). Electrical coupling within thalamocortical networks cumulatively reduces cortical correlation to sensory inputs. Poster."
+      
+      - "Society for Neuroscience (2023). Understanding variations in MGB tone responses due to TRN synaptic connectivity. Poster."
+
+      - "Organization for Computational Neurosciences (2021). Neuronal heterogeneity underlies electrical synapse asymmetry and spike time variability in coupled neurons. Poster."
+
+      - "Society for Neuroscience (2018) Modeling visual perception, learning, and memory of wood ants navigating in naturalistic environments. Poster."
