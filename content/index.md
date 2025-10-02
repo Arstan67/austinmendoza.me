@@ -13,8 +13,11 @@ My research has also been featured in Lehigh University news articles in the [[p
 I have presented at Society for Neuroscience and Organization for Computational Neurosciences conferences, listed in the [[talks/]] section.
 A copy of my CV can be downloaded from the [[CV]] section.
 
+Send me an email at:
+
+<script>document.write('a'+'u'+'s'+'t'+'i'+'n'+'j'+'m'+'e'+'n'+'d'+'o'+'z'+'a'+'@'+'p'+'r'+'o'+'t'+'o'+'n'+'.'+'m'+'e');</script>
+
 You can also find me at:
-- [Email](mailto:austinjmendoza@proton.me)
 - [Github](https://github.com/Arstan67)
 - [Linkedin](https://www.linkedin.com/in/austinjmendoza)
 - [ORCID](https://orcid.org/0000-0001-6823-6624)
