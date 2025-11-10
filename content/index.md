@@ -18,7 +18,7 @@ Send me an email at:
 <script>document.write('a'+'u'+'s'+'t'+'i'+'n'+'j'+'m'+'e'+'n'+'d'+'o'+'z'+'a'+'@'+'p'+'r'+'o'+'t'+'o'+'n'+'.'+'m'+'e');</script>
 
 You can also find me at:
-- [Github](https://github.com/Arstan67)
+- [Github](https://github.com/austinjmendoza)
 - [Linkedin](https://www.linkedin.com/in/austinjmendoza)
 - [ORCID](https://orcid.org/0000-0001-6823-6624)
 - [Google Scholar](https://scholar.google.com/citations?user=uO7A5wYAAAAJ)
