@@ -30,9 +30,9 @@ personal:
     # phone:
     website: https://austinmendoza.me
   profiles:
-    # - network: GitHub
-    #   # username: johndoe
-    #   url: https://github.com/Arstan67
+    - network: GitHub
+      username: austinjmendoza
+      url: https://github.com/austinjmendoza
     - network: LinkedIn
       username: austinjmendoza
       url: https://linkedin.com/in/austinjmendoza
@@ -106,7 +106,7 @@ sections:
     entries:
       - "*Mendoza. AJ* & JS Haas. (2025). Electrical coupling within thalamocortical networks cumulatively reduces cortical correlation to sensory inputs. In Submission, J. neurosci. BioRxiv. Doi:10.1101/2025.08.21.671565"
       
-      - "Rolón-Martínez, S, *Mendoza, AJ*, Angeloni, CF, Diaz-Nieves, IA, Chen, R, Haas, JS, 		& MN Geffen. (2025). Inhibitory neuron types of the TRN differentially modulate auditory 	thalamic sound responses. In Review, PLoS Biology. BioRxiv. Doi:10.1101/2024.06.29.601250"
+      - "Rolón-Martínez S, *Mendoza AJ*, Angeloni CF, Vogler NW, Drotos AC, Aizenberg M, et al. (2026) Thalamic reticular neurons provide cell type-specific modulation of sound processing in the auditory thalamus. PLoS Biol 24(3): e3003693. https://doi.org/10.1371/journal.pbio.3003693"
 
       - "*Mendoza. AJ* & JS Haas. (2022). Intrinsic sources and functional impacts of asymmetry at 	electrical synapses. eNeuro. Doi:10.1523/ENEURO.0469-21.2022"
 
