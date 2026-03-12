@@ -6,16 +6,16 @@ Welcome! I am Austin Mendoza, a computational neuroscientist interested in senso
 I recently completed my Ph.D. working in the [Haas Lab](https://bio.cas.lehigh.edu/faculty-staff/julie-haas/haas-lab) at Lehigh University.
 My thesis was on investigating electrically coupled networks of thalamic reticular nucleus (TRN) neurons, and how they might influence sensory attention and information flow from the thalamus to cortex.
 I utilize the [Julia programming language](https://julialang.org) to simulate realistic neuron and synaptically connected networks, and can be accessed from our [github repo](https://github.com/jhaaslab/Models).
-More info about my research interests and computational models can be found in the [[research/]] section.
+More info about my research interests and computational models can be found in the [[Research/]] section.
 
-My research papers can be found listed in the [[publications/]] section.
-My research has also been featured in Lehigh University news articles in the [[publicity/]] section.
-I have presented at Society for Neuroscience and Organization for Computational Neurosciences conferences, listed in the [[talks/]] section.
+My research papers can be found listed in the [[Publications/]] section.
+My research has also been featured in Lehigh University news articles in the [[Publicity/]] section.
+I have presented at Society for Neuroscience and Organization for Computational Neurosciences conferences, listed in the [[Talks/]] section.
 A copy of my CV can be downloaded from the [[CV]] section.
 
 Send me an email at:
 
-<script>document.write('a'+'u'+'s'+'t'+'i'+'n'+'j'+'m'+'e'+'n'+'d'+'o'+'z'+'a'+'@'+'p'+'r'+'o'+'t'+'o'+'n'+'.'+'m'+'e');</script>
+[austinjmendoza@proton.me](mailto:austinjmendoza@proton.me)
 
 You can also find me at:
 - [Github](https://github.com/austinjmendoza)

@@ -22,14 +22,14 @@ These gap junctions allow for electrical current to flow between two coupled neu
 A simple model of an electrical synapse can thus be a static resistance applied to the voltage difference between two neurons:
 
 $$
-I_{cell1->cell2} = G_{elec}\cdot(V_{cell1}-V_{cell2})
+I_("cell 1" -> "cell 2") = G_"elec" dot (V_"cell 1" -V_"cell 2")
 $$
 
 
 # Computational models
 
-My expertise with computational modelling is with utilizing the Hodgkin-Huxley (HH) based models.
-Neuron spiking is simulated from the biophysics of the sodium and potassium ion channels and their gating properties, mathematically described by Hodgkin and Huxley ([1952](https://doi.org/10.1113/jphysiol.1952.sp004764)). 
+My expertise with computational modeling is with utilizing the Hodgkin-Huxley (HH) based models.
+Neuron spiking is simulated from the biophysics of the sodium and potassium ion channels and their gating properties, mathematically described by @HodgkinHuxley1952. 
 
 The simplest example is shown here:
 
@@ -95,3 +95,6 @@ Solving the system with a positive square current illicits spiking such as:
 These interactive code notebooks have example HH and TRN neuron models where parameters can be explored.
 
 [Pluto notebooks](https://nearby-lively-octopus.ngrok-free.app/)
+
+---
+# References
